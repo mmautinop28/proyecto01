@@ -1,0 +1,32 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: ms-admin-config-server
+#Configuracion Local
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server: 
+#        native:
+#          searchLocations: file:///D:/AmbDesarrollo/Cursos/2022/PROYECTO01/ms-admin-server-data
+#          searchLocations: file:///D:/srv/git/Proyecto-avicola/ms-admin-server-data
+
+#Configuracion Cloud (git)
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mmautinop28/MS-02-2022.git
+          search-paths:
+          - ms-admin-server-data
+          username: ${USER_NAME}
+          password: ${USER_PASSWORD}
+          clone-on-start: true
+          force-pull: true
+          timeout: 5
+          default-label: ms-admin-server-data
+        
+                
+          
