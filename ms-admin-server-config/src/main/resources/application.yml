@@ -18,7 +18,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mmautinop28/MS-02-2022.git
+          uri: https://github.com/mmautinop28/proyecto01.git
           search-paths:
           - ms-admin-server-data
           username: ${USER_NAME}
@@ -26,7 +26,7 @@ spring:
           clone-on-start: true
           force-pull: true
           timeout: 5
-          default-label: ms-admin-server-data
+          default-label: ms-admin-config-server
         
                 
           
