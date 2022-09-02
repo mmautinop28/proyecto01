@@ -1,0 +1,58 @@
+--------------------------------------------
+Negocio
+--------------------------------------------
+
+1.- ms-avi-gestion-productos					8081
+2.- ms-avi-gestion-clientes						8082
+3.- ms-avi-gestion-proveedor					8083
+4.- ms-avi-gestion-empresa						8084
+5.- ms-avi-gestion-vehiculo						8085
+6.- ms-avi-gestion-pedidos						8086
+6.- ms-avi-gestion-detalle-pedido				8087
+
+
+7.- ms-avi-gestion-pedidos-query				8088
+
+8.- ms-avi-gestion-pedidos-command				8090
+
+9.- ms-avi-gestion-pedidos-producer				8091
+10.- ms-avi-gestion-pedidos-consumer			8092
+11.- ms-avi-gestion-pedidos-autorizacion		8093 (SAGA)
+12.- ms-avi-gestion-pedidos-credito-estandar	8094
+13.- ms-avi-gestion-pedidos-credito-especial	8095
+
+
+14.- ms-avi-gestion-pedidos-redis			    8096
+15.- ms-avi-gestion-pedidos-docker			    8097
+
+16.- tracer-demo1							    8098
+16.- tracer-demo1.1							    8099
+16.- tracer-demo1.1.1						    8100
+16.- tracer-demo1.1.2						    8101
+
+17.- api-clientes								8102
+18.- api-productos							    8103
+19.- authentication			        			8104
+20.- spring.boot.rest.oauth2			        8105
+
+--------------------------------------------
+Administración (Admin):
+--------------------------------------------
+15.-ms-admin-config-server				8888
+16.-ms-admin-registry-server			8889
+17.-ms-admin-server-admin				8890
+18.-ms-admin-api-gateway				8891
+
+--------------------------------------------
+Topics de Apache Kafka:
+--------------------------------------------
+topic-orden								SQRS
+topic-orden-autorizacion				SAGA
+topic-orden-credito-estandar			SAGA
+topic-orden-credito-especial			SAGA
+
+---------------------------------------------
+
+
+
+	
